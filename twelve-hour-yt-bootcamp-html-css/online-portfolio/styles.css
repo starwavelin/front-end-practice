@@ -2,6 +2,37 @@ body {
   font-family: "Gill Sans MT", sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: #e0e0e0;
+}
+
+.hero {
+  width: 100%;
+  /* background-color: rgba(200 188 182 / 75%); */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.hero-info {
+  margin: 30px;
+  max-width: 350px;
+}
+
+.styled-break {
+  width: 100px;
+  height: 5px;
+  background-color: #3715a9;
+  border-radius: 2.5px;
+  margin: 30px 0;
+}
+
+.hero-image {
+  width: 300px;
+  margin: 30px;
+}
+
+.hero-name {
+  color: green;
 }
 
 .about-me {
@@ -15,26 +46,20 @@ body {
   border-radius: 50%;
 }
 
-#name {
-  color: green;
-}
-
 .button {
-  width: 100px;
-  text-align: center;
+  width: 80px;
   border: 0;
-  padding: 0 20px;
-  font-size: 20px;
-  line-height: 2.5;
-  color: rgb(255, 255, 255);
-  background-color: rgba(220, 0, 0, 1);
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #ef866c;
+  color: #ffffff;
+  text-align: center;
+  font: 12px;
+  text-transform: uppercase;
 }
 
 .button:hover {
-  background-color: rgba(255, 0, 0, 1);
+  background-color: #ef744b;
   cursor: pointer;
 }
 
@@ -66,4 +91,9 @@ section {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
 }
