@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./nav.css" />
   </head>
 
   <body>
-    <header>HEADER</header>
-    <div class="about-me">
+    <nav>
+      <img
+        class="logo"
+        src="images/javascript-logo.png"
+        alt="Logo of Online Portfolio"
+      />
+      <ul class="nav-links">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="pages/contact.html">Contact me</a></li>
+        <li>
+          <a href="https://github.com/starwavelin" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="about-me" id="about-me">
       <h1 id="name">Coding Bro</h1>
       <img
         class="avatar"
         src="./images/codingbro.png"
         alt="Codingbro Headshot"
       />
-      <div class="button">Hire Me</button>
+      <div class="button">Hire Me</div>
     </div>
     <section>
       <div class="tile">1</div>
@@ -27,9 +41,11 @@
     </section>
     <footer>
       <ul style="list-style-type: square; line-height: 150%">
-        <li><a href="">About me</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="https://github.com/starwavelin">GitHub</a></li>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="pages/contact.html">Contact me</a></li>
+        <li>
+          <a href="https://github.com/starwavelin" target="_blank">GitHub</a>
+        </li>
       </ul>
     </footer>
   </body>
