@@ -1,0 +1,18 @@
+.header {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+}
+
+.circle {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid purple 2px; /* border is a good way to mark the border for content + padding */
+}
+
+.about-me {
+  height: 100px;
+  background-color: blue;
+}
