@@ -1,0 +1,13 @@
+body {
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.child {
+  background-color: lightcoral;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
