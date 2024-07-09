@@ -50,6 +50,7 @@ body {
   text-align: center;
   font: 12px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .button:hover {
@@ -96,6 +97,34 @@ section {
 
 #having-shadow {
   box-shadow: 5px 10px 1px grey;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+.input-section-names {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  margin: 10px 0 0 0;
+}
+
+.input-section {
+  margin: 10px 0;
+  display: flex;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  margin: 10px 10px 0 0;
 }
 
 a {
